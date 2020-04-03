@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_SWD
+D 5-pin SWD connector for ST ARM microcontrollers
+$ENDCMP
+#
+$CMP TLC5928DBQ
+D TLC5928 in SSOP-24/QSOP-24 package
+$ENDCMP
+#
+$CMP TLC5928DBQR
+D TLC5928 in SSOP-24/QSOP-24 package, tape & reel
+$ENDCMP
+#
+$CMP TLC5928PW
+D TLC5928 in TSSOP-24 package
+$ENDCMP
+#
+$CMP TLC5928PWR
+D TLC5928 in TSSOP-24 package, tape & reel
+$ENDCMP
+#
+#End Doc Library
