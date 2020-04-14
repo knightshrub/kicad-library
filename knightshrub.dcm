@@ -4,6 +4,14 @@ $CMP Conn_SWD
 D 5-pin SWD connector for ST ARM microcontrollers
 $ENDCMP
 #
+$CMP PGA112
+D Programmable gain amplifier, binary gains
+$ENDCMP
+#
+$CMP PGA113
+D Programmable gain amplifier, scope gains
+$ENDCMP
+#
 $CMP TLC5928DBQ
 D TLC5928 in SSOP-24/QSOP-24 package
 $ENDCMP
