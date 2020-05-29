@@ -4,12 +4,24 @@ $CMP Conn_SWD
 D 5-pin SWD connector for ST ARM microcontrollers
 $ENDCMP
 #
+$CMP LMH6642D08A
+F https://www.ti.com/lit/ds/symlink/lmh6642.pdf
+$ENDCMP
+#
+$CMP OPA1652
+F https://www.ti.com/lit/ds/symlink/opa1652.pdf
+$ENDCMP
+#
 $CMP PGA112
 D Programmable gain amplifier, binary gains
 $ENDCMP
 #
 $CMP PGA113
 D Programmable gain amplifier, scope gains
+$ENDCMP
+#
+$CMP SN74CBT3253D
+F https://www.ti.com/lit/ds/symlink/sn74cbt3253.pdf
 $ENDCMP
 #
 $CMP TLC5928DBQ
