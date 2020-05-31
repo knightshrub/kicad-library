@@ -24,6 +24,10 @@ $CMP SN74CBT3253D
 F https://www.ti.com/lit/ds/symlink/sn74cbt3253.pdf
 $ENDCMP
 #
+$CMP THS5432
+F http://www.ti.com/lit/ds/symlink/ths4532.pdf
+$ENDCMP
+#
 $CMP TLC5928DBQ
 D TLC5928 in SSOP-24/QSOP-24 package
 $ENDCMP
@@ -38,6 +42,10 @@ $ENDCMP
 #
 $CMP TLC5928PWR
 D TLC5928 in TSSOP-24 package, tape & reel
+$ENDCMP
+#
+$CMP WM8731SEDS
+F https://statics.cirrus.com/pubs/proDatasheet/WM8731_v4.9.pdf
 $ENDCMP
 #
 #End Doc Library
