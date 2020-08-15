@@ -1,5 +1,20 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC137
+D High-Speed CMOS Logic, 3-to 8-Line Decoder/Demultiplexer with Address Latches
+F http://www.ti.com/lit/ds/symlink/cd74hc137.pdf
+$ENDCMP
+#
+$CMP 74HC165
+D 8-Bit Parallel-LoadShift Registers
+F http://www.ti.com/lit/ds/symlink/sn74hc165.pdf
+$ENDCMP
+#
+$CMP 74HC4511
+D BDC to 7-segment latch/decoder/drivers
+F http://www.ti.com/lit/ds/symlink/cd74hc4511.pdf
+$ENDCMP
+#
 $CMP Conn_SWD
 D 5-pin SWD connector for ST ARM microcontrollers
 $ENDCMP
@@ -22,6 +37,41 @@ $ENDCMP
 #
 $CMP SN74CBT3253D
 F https://www.ti.com/lit/ds/symlink/sn74cbt3253.pdf
+$ENDCMP
+#
+$CMP STP08DP05B1R
+D Low voltage 8-bit constant current LED sink with full outputs error detection
+K DIP-16
+F https://www.st.com/resource/en/datasheet/stp08dp05.pdf
+$ENDCMP
+#
+$CMP STP08DP05MTR
+D Low voltage 8-bit constant current LED sink with full outputs error detection
+K SO-16
+F https://www.st.com/resource/en/datasheet/stp08dp05.pdf
+$ENDCMP
+#
+$CMP STP08DP05TTR
+D Low voltage 8-bit constant current LED sink with full outputs error detection
+K TSSOP16
+F https://www.st.com/resource/en/datasheet/stp08dp05.pdf
+$ENDCMP
+#
+$CMP STP08DP05XTTR
+D Low voltage 8-bit constant current LED sink with full outputs error detection
+K TSSOP16 exposed pad
+F https://www.st.com/resource/en/datasheet/stp08dp05.pdf
+$ENDCMP
+#
+$CMP TB627777FG
+D 8-Channel Constant-Current LED Driver of the 3.3-V and 5-V Power Supply Voltage Operation
+K SSOP16-P-225-1.00A
+F https://www.st.com/resource/en/datasheet/stp08dp05.pdf
+$ENDCMP
+#
+$CMP TB62777FNG
+D 8-Channel Constant-Current LED Driver of the 3.3-V and 5-V Power Supply Voltage Operation
+K SSOP16-P-225-0.65B
 $ENDCMP
 #
 $CMP THS5432
