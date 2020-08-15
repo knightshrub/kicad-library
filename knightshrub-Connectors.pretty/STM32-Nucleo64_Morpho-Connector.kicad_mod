@@ -1,4 +1,4 @@
-(module STM32-Nucleo64_Morpho-Connector (layer F.Cu) (tedit 5ED3AAD1)
+(module STM32-Nucleo64_Morpho-Connector (layer F.Cu) (tedit 5ED4C5E1)
   (descr "STM32-Nucleo64 Morpho connector")
   (fp_text reference REF** (at -30.48 -25.4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -120,7 +120,12 @@
   (pad 10.28 thru_hole oval (at 31.75 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 10.35 thru_hole oval (at 29.21 20.32) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x19_P2.54mm_Vertical.wrl
-    (at (xyz 0 0 0))
+    (offset (xyz -31.75 22.86 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x19_P2.54mm_Vertical.wrl
+    (offset (xyz 29.25 22.86 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
